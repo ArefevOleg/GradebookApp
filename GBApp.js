@@ -52,5 +52,37 @@ function studentMsg(totalScores, studentScore) {
 // console.log(studentMsg([92, 88, 12, 77, 57, 100, 67, 38, 97, 89], 37));
 console.log(studentMsg([56, 23, 89, 42, 75, 11, 68, 34, 91, 19], 100));
 
+const darkColorsArr = [
+  "#2C3E50",
+  "#34495E",
+  "#2C2C2C",
+  "#616A6B",
+  "#4A235A",
+  "#2F4F4F",
+  "#0E4B5A",
+  "#36454F",
+  "#2C3E50",
+  "#800020",
+];
+
+function getRandomIndex() {
+  const randomIndex = Math.floor(darkColorsArr.length * Math.random());
+  return randomIndex;
+}
+
+const body = document.querySelector("body");
+const bgHexCodeSpanElement = document.querySelector("#bg-hex-code");
+
+function changeBackgroundColor() {
+  const color = darkColorsArr[getRandomIndex()];
+
+  bgHexCodeSpanElement.innerText = color;
+  body.style.backgroundColor = color;
+}
+const btn = document.querySelector("#btn");
+btn.onclick = changeBackgroundColor;
+
+
+
 
 

@@ -1,4 +1,4 @@
-# Gradebook App из курса [freecodecamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/)
+# Gradebook App 
 Мини-проекте изучаем основы JavaScript, функции, 
 переменные, условные выражения и многое другое,
 создаём приложение для создания зачетной книжки.
@@ -29,3 +29,5 @@
 // Создаём функцию studentMsg, указав в качестве параметров итоговые баллы и оценку учащегося.
 // Функция двозвращает строку, представляющую сообщение для учащегося.
 ```
+
+###### из курса [freecodecamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/)
